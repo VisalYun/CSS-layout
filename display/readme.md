@@ -1,0 +1,10 @@
+## display
+`display` is CSS's most important property for controlling layout. Every element has a default display value depending on what type of element it is. The default for most elements is usually `block` or `inline`. A block element is often called a block-level element. An inline element is always just called an inline element.
+
+### block
+`div` is the standard block-level element. A block-level element starts on a new line and stretches out to the left and right as far as it can. Other common block-level elements are `p` and `form`, and new in HTML5 are `header`, `footer`, `section`, and more.
+### inline
+`span` is the standard inline element. An inline element can wrap some text inside a paragraph without disrupting the flow of that paragraph. The `a` element is the most common inline element, since you use them for links.
+### none
+It is commonly used with JavaScript to hide and show elements without really deleting and recreating them.
+This is different from `visibility`. Setting `display` to `none` will render the page as though the element does not exist. `visibility: hidden;` will hide the element, but the element will still take up the space it would if it was fully visible.
